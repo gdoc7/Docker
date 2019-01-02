@@ -125,5 +125,10 @@ Response:
     }
 }
 ```
+**Docker**
 
- 
+Para correr el docker vas a necesitar siguiente comando dentro de la carpeta de tu App :
+
+ ```
+ docker-compose run webapp rake db:create
+ ```
